@@ -8,7 +8,7 @@ A catalog of software Design Patterns.
 - Creational Patterns
     + Abstract Factory
     + Factory Method
-    - Singleton
+    + Singleton
 - Structural Patterns
     - Adapter
     - Bridge
