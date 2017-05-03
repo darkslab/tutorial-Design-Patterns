@@ -11,7 +11,7 @@ A catalog of software Design Patterns.
     + Singleton
 - Structural Patterns
     + Adapter
-    - Bridge
+    + Bridge
     - Composite
     - Decorator
 - Behavioral Patterns
