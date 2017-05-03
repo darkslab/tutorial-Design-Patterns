@@ -5,12 +5,12 @@ A catalog of software Design Patterns.
 
 #### List ####
 
-- Creational Patterns
++ Creational Patterns
     + Abstract Factory
     + Factory Method
     + Singleton
 - Structural Patterns
-    - Adapter
+    + Adapter
     - Bridge
     - Composite
     - Decorator
