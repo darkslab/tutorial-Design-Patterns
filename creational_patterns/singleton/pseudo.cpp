@@ -1,17 +1,19 @@
 class MazeFactory {
 public:
-    static MazeFactory *Instance();
+    static MazeFactory* Instance();
+
+    // existing interface goes here
 
 protected:
     MazeFactory();
 
 private:
-    static MazeFactory *_instance;
+    static MazeFactory* _instance;
 };
 
-MazeFactory *MazeFactory::_instance = 0;
+MazeFactory* MazeFactory::_instance = 0;
 
-MazeFactory *MazeFactory::Instance()
+MazeFactory* MazeFactory::Instance()
 {
     if (_instance == 0) {
         _instance = new MazeFactory;
@@ -19,16 +21,19 @@ MazeFactory *MazeFactory::Instance()
     return _instance;
 }
 
-MazeFactory *MazeFactory::Instance()
+MazeFactory* MazeFactory::Instance()
 {
     if (_instance == 0) {
-        const char *mazeStyle = getenv("MAZESTYLE");
+        const char* mazeStyle = getenv("MAZESTYLE");
 
         if (strcmp(mazeStyle, "bombed") == 0) {
             _instance = new BombedMazeFactory;
         } else if (strcmp(mazeStyle, "enchanted") == 0) {
             _instance = new EnchantedMazeFactory;
-        } else {
+
+        // ... other possible subclasses
+
+        } else {  // default
             _instance = new MazeFactory;
         }
     }
