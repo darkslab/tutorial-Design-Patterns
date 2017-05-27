@@ -12,7 +12,7 @@ A catalog of software Design Patterns.
 - Structural Patterns
     + Adapter
     + Bridge
-    - Composite
+    + Composite
     - Decorator
 - Behavioral Patterns
     - Command
