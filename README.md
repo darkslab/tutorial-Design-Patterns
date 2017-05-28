@@ -9,11 +9,11 @@ A catalog of software Design Patterns.
     + Abstract Factory
     + Factory Method
     + Singleton
-- Structural Patterns
++ Structural Patterns
     + Adapter
     + Bridge
     + Composite
-    - Decorator
+    + Decorator
 - Behavioral Patterns
     - Command
     - Iterator
