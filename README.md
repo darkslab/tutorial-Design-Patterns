@@ -15,7 +15,7 @@ A catalog of software Design Patterns.
     + Composite
     + Decorator
 - Behavioral Patterns
-    - Command
+    + Command
     - Iterator
     - Observer
     - Strategy
