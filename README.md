@@ -17,7 +17,7 @@ A catalog of software Design Patterns.
 - Behavioral Patterns
     + Command
     + Iterator
-    - Observer
+    + Observer
     - Strategy
     - Template Method
     - Visitor
