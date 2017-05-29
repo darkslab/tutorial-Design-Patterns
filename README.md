@@ -18,6 +18,6 @@ A catalog of software Design Patterns.
     + Command
     + Iterator
     + Observer
-    - Strategy
+    + Strategy
     - Template Method
     - Visitor
