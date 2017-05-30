@@ -19,5 +19,5 @@ A catalog of software Design Patterns.
     + Iterator
     + Observer
     + Strategy
-    - Template Method
+    + Template Method
     - Visitor
