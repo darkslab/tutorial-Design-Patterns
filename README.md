@@ -14,10 +14,10 @@ A catalog of software Design Patterns.
     + Bridge
     + Composite
     + Decorator
-- Behavioral Patterns
++ Behavioral Patterns
     + Command
     + Iterator
     + Observer
     + Strategy
     + Template Method
-    - Visitor
+    + Visitor
