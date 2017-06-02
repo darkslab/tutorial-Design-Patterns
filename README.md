@@ -16,7 +16,7 @@ A catalog of software Design Patterns.
     + Bridge
     + Composite
     + Decorator
-    - Facade
+    + Facade
     - Flyweight
     - Proxy
 * Behavioral Patterns
