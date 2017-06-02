@@ -18,7 +18,7 @@ A catalog of software Design Patterns.
     + Decorator
     + Facade
     - Flyweight
-    - Proxy
+    + Proxy
 * Behavioral Patterns
     - Chain of Responsibility
     + Command
