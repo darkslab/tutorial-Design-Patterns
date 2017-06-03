@@ -27,7 +27,7 @@ A catalog of software Design Patterns.
     - Mediator
     - Memento
     + Observer
-    - State
+    + State
     + Strategy
     + Template Method
     + Visitor
